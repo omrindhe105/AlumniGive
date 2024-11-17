@@ -1,0 +1,15 @@
+[package]
+name = "AlumniGive"
+version = "1.0.0"
+authors = []
+
+[addresses]
+AlumniChain  ="0x7a51642d97ed7704e80aca33b3329e7b633019c7b97cf01e4c5181bb4cf9f956"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
